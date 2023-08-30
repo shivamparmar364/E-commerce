@@ -1,0 +1,208 @@
+{
+  "seller": [
+    {
+      "name": "sam sidhu",
+      "email": "sam@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "peter",
+      "password": "abc@123",
+      "email": "peter@test.com",
+      "id": 3
+    },
+    {
+      "name": "bruce",
+      "password": "abc@123",
+      "email": "bruce@test.com",
+      "id": 4
+    },
+    {
+      "name": "anil",
+      "password": "abc123",
+      "email": "anil@test.com",
+      "id": 5
+    },
+    {
+      "name": "alena",
+      "password": "abc123",
+      "email": "alena@test.com",
+      "id": 6
+    },
+    {
+      "name": "sam",
+      "password": "abc@123",
+      "email": "sam@test.com",
+      "id": 7
+    },
+    {
+      "name": "bhasker",
+      "password": "abc@123",
+      "email": "bhasker@test.com",
+      "id": 8
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung M34 5G",
+      "price": "Rs.20,999",
+      "category": "mobile",
+      "color": "black",
+      "description": "Samsung Galaxy M34 5G (Midnight Blue, 8GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 16GB RAM with RAM Plus | Android 13 | Without Charger ",
+      "image": "/assets/samsung.jpg",
+      "id": 1
+    },
+    {
+      "name": "Iphone 14",
+      "price": "Rs.1,20,000",
+      "category": "mobile",
+      "color": "white",
+      "description": "Apple iPhone 14 (512 GB) - White",
+      "image": "/assets/iphone14.jpeg",
+      "id": 2
+    },
+    {
+      "name": "HP Laptop 15s",
+      "price": " Rs.54,990",
+      "category": "Laptop",
+      "color": "Natural Silver",
+      "description": "HP Laptop 15s, 12th Gen Intel Core i5-1235U, 15.6-inch (39.6 cm), FHD, 8GB DDR4, 512GB SSD, Intel Iris Xe Graphics, Backlit KB, Thin & Light (Win 11, MSO 2021, Silver, 1.69 kg), fq5111TU ",
+      "image": "/assets/DellLaptop.jpg",
+      "id": 3
+    },
+    {
+      "name": "JioBook 11 (2023) NB1112MM(BLU) ",
+      "price": " Rs.16,499",
+      "category": "Laptop",
+      "color": "JioBlue",
+      "description": "JioBook 11 (2023) NB1112MM(BLU) (Mediatek 8788 Octa-core 2 GHz/ARM Mali G72 MP3 @800 MHz/29.5cms 60 Hz/Thin and Light Laptop/ 4 GB LPDDR4/ 64 GB eMMC/JioOS 4G LTE, Dual Band Wi-Fi/Blue/ 990 GMS) ",
+      "image": "/assets/jioBook.jpg",
+      "id": 4
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "id": 5
+    },
+    {
+      "name": "Noise Smart Watch",
+      "price": "2000",
+      "category": "Watch",
+      "color": "Black",
+      "description": "Noise smart watch for man and women both",
+      "image": "https://www.reliancedigital.in/medias/Noise-Colorfit-Pro-2-Smart-Watch-491900986-i-1-1200Wx1200H-300Wx300H?context=bWFzdGVyfGltYWdlc3w1MDc0NXxpbWFnZS9qcGVnfGltYWdlcy9oYzkvaDdjLzk1OTE4MjA3NDY3ODIuanBnfDA3MjZlMzkzOTExYzMyNzk5Y2YzOTk0MWFkMjc5YjE5OTlkMDE4NzYzYTg1YzQ2YmNjZjMxYzc5ZDJiYjBlNDg",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "name": "anil",
+      "email": "anil@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "peter",
+      "email": "peter@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "hyden",
+      "email": "hyden@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "tony",
+      "email": "tony@user.com",
+      "password": "abc123",
+      "id": 4
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung M34 5G",
+      "price": "₹20,999",
+      "category": "mobile",
+      "color": "black",
+      "description": "Samsung Galaxy M34 5G (Midnight Blue, 8GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 16GB RAM with RAM Plus | Android 13 | Without Charger ",
+      "image": "/assets/samsung.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 3,
+      "id": 7
+    },
+    {
+      "name": "Levies Jeans",
+      "price": "₹5000",
+      "category": "Jeans",
+      "color": "blue",
+      "description": "Confirmable jeans for man ",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": 5,
+      "userId": 3,
+      "id": 8
+    },
+    {
+      "name": "Iphone 14",
+      "price": "1,20,000",
+      "category": "mobile",
+      "color": "white",
+      "description": "Apple iPhone 14 (512 GB) - White",
+      "image": "/assets/iphone14.jpeg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 1,
+      "id": 9
+    },
+    {
+      "name": "Samsung M34 5G",
+      "price": "Rs.20,999",
+      "category": "mobile",
+      "color": "black",
+      "description": "Samsung Galaxy M34 5G (Midnight Blue, 8GB, 128GB Storage) | 120Hz sAMOLED Display | 50MP Triple No Shake Cam | 6000 mAh Battery | 16GB RAM with RAM Plus | Android 13 | Without Charger ",
+      "image": "/assets/samsung.jpg",
+      "quantity": 1,
+      "productId": 1,
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "name": "Iphone 14",
+      "price": "Rs.1,20,000",
+      "category": "mobile",
+      "color": "white",
+      "description": "Apple iPhone 14 (512 GB) - White",
+      "image": "/assets/iphone14.jpeg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 2,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "email": "anil@user.com",
+      "address": "noida sector x",
+      "contact": "9999",
+      "totalPrice": 104750,
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "email": "anil@test.com",
+      "address": "noida sector x",
+      "contact": "8877",
+      "totalPrice": 6100,
+      "userId": 1,
+      "id": 3
+    }
+  ]
+}

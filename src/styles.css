@@ -1,0 +1,68 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 0px solid rgba(58, 159, 167, 0.658);
+  padding-left: 15px;
+  color: black;
+  border-radius: 25px 25px 25px 25px;
+  background-color: rgb(196, 191, 191);
+}
+
+.form-input:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-button {
+  height: 35px;
+  border: 0px solid rgba(58, 159, 167, 0.658);
+  color: white;
+  cursor: pointer;
+  border-radius: 25px 25px 25px 25px;
+  background-color: green;
+}
+
+.form-button:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.error-p{
+  color: red;
+}
+
+.message-p{
+  color: green;
+  text-align: center;
+}
+
+.carousel-caption {
+  background-color: #0000007d;
+  border-radius: 10px;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon{
+  background-color: black;
+  border-radius: 5px;
+}
+
+.invalid-input{
+  color: red;
+  font-size: 12px;
+  margin-top:-20px
+}
+button:disabled{
+  cursor: not-allowed;
+}
+.max-width{
+  width: 100%;
+}

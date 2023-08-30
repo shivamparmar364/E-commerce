@@ -1,0 +1,17 @@
+table{
+    text-align: left;
+    color: rgba(58, 159, 167, 0.658);
+    border-collapse: collapse;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+table td , table th{
+    border: 1px solid rgba(58, 159, 167, 0.658);
+    padding: 10px;
+    min-width: 160pxs;
+}
+.adjust-update-link{
+    margin-left: 10px;
+}
